@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using MARDEK.Core;
 using MARDEK.CharacterSystem;
@@ -10,19 +8,25 @@ namespace MARDEK.UI
     public class CharacterImageAnimation : MonoBehaviour
     {
         [SerializeField] CharacterSelectable characterSelectable;
+        [SerializeField] CharacterProfile fixedCharacter;
         [SerializeField] Image characterImage;
-        [SerializeField] MoveDirection movementSpriteAnimationDirection;
+        public MoveDirection movementSpriteAnimationDirection;
         [SerializeField] Sprite disabledSprite;
 
         public void Update()
         {
-            if (characterSelectable.Character == null)
+            var characterInfo = fixedCharacter;
+            if (characterInfo == null) {
+                var character = characterSelectable.Character;
+                if (character != null) characterInfo = character.Profile;
+            }
+
+            if (characterInfo == null)
             {
                 characterImage.sprite = disabledSprite;
                 return;
             }
                 
-            var characterInfo = characterSelectable.Character.Profile;
             var clip = characterInfo.WalkSprites.GetClipByReference(movementSpriteAnimationDirection);
             var animRatio = Time.time % 1;
             characterImage.sprite = clip.GetSprite(animRatio);
