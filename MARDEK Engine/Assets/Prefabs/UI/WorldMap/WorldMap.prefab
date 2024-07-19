@@ -932,6 +932,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3286163911610860551, guid: 22fdd69e9fbf7cb4b917c3a4e5109a45, type: 3}
     - target: {fileID: 1068433113987041144, guid: 3911d3834402f50419d3f08715e7dc6d, type: 3}
+      propertyPath: upWaypoint
+      value: 
+      objectReference: {fileID: 3876863655487877403}
+    - target: {fileID: 1068433113987041144, guid: 3911d3834402f50419d3f08715e7dc6d, type: 3}
+      propertyPath: downWaypoint
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1068433113987041144, guid: 3911d3834402f50419d3f08715e7dc6d, type: 3}
+      propertyPath: rightWaypoint
+      value: 
+      objectReference: {fileID: 3876863655487877403}
+    - target: {fileID: 1068433113987041144, guid: 3911d3834402f50419d3f08715e7dc6d, type: 3}
       propertyPath: scene.scenePath
       value: Assets/Scenes/Imported Maps/heroes_den.unity
       objectReference: {fileID: 0}
@@ -1005,6 +1017,14 @@ PrefabInstance:
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 263.35144
+      objectReference: {fileID: 0}
+    - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1022,15 +1042,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1115,6 +1135,14 @@ PrefabInstance:
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 224.35686
+      objectReference: {fileID: 0}
+    - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1132,15 +1160,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1235,6 +1263,10 @@ PrefabInstance:
     - target: {fileID: 4811934735201344906, guid: 0ef26002ae8a1a84ba596c03cad5a712, type: 3}
       propertyPath: m_Name
       value: GeneralProgressData
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811934735201344906, guid: 0ef26002ae8a1a84ba596c03cad5a712, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8688935292817615562, guid: 0ef26002ae8a1a84ba596c03cad5a712, type: 3}
       propertyPath: sceneInfo
@@ -1354,6 +1386,18 @@ PrefabInstance:
       propertyPath: nameSprite
       value: 
       objectReference: {fileID: 3286163911610860551, guid: a69aae65c357949489a6fd628f07db75, type: 3}
+    - target: {fileID: 1068433113987041144, guid: 3911d3834402f50419d3f08715e7dc6d, type: 3}
+      propertyPath: downWaypoint
+      value: 
+      objectReference: {fileID: 6184500857341334743}
+    - target: {fileID: 1068433113987041144, guid: 3911d3834402f50419d3f08715e7dc6d, type: 3}
+      propertyPath: leftWaypoint
+      value: 
+      objectReference: {fileID: 6184500857341334743}
+    - target: {fileID: 1068433113987041144, guid: 3911d3834402f50419d3f08715e7dc6d, type: 3}
+      propertyPath: rightWaypoint
+      value: 
+      objectReference: {fileID: 3876863655487877403}
     - target: {fileID: 1068433113987041144, guid: 3911d3834402f50419d3f08715e7dc6d, type: 3}
       propertyPath: scene.scenePath
       value: Assets/Scenes/Imported Maps/soothwood.unity
@@ -1484,6 +1528,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3286163911610860551, guid: 8f4e6480922ef354bbb1ab01a4a0535e, type: 3}
     - target: {fileID: 1068433113987041144, guid: 3911d3834402f50419d3f08715e7dc6d, type: 3}
+      propertyPath: upWaypoint
+      value: 
+      objectReference: {fileID: 4166793107434957425}
+    - target: {fileID: 1068433113987041144, guid: 3911d3834402f50419d3f08715e7dc6d, type: 3}
+      propertyPath: downWaypoint
+      value: 
+      objectReference: {fileID: 1558155430343214792}
+    - target: {fileID: 1068433113987041144, guid: 3911d3834402f50419d3f08715e7dc6d, type: 3}
+      propertyPath: leftWaypoint
+      value: 
+      objectReference: {fileID: 4166793107434957425}
+    - target: {fileID: 1068433113987041144, guid: 3911d3834402f50419d3f08715e7dc6d, type: 3}
       propertyPath: scene.scenePath
       value: Assets/Scenes/Imported Maps/goznor.unity
       objectReference: {fileID: 0}
@@ -1555,6 +1611,14 @@ PrefabInstance:
     - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
       propertyPath: m_SizeDelta.y
       value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 165.02425
+      objectReference: {fileID: 0}
+    - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 30546535110353569, guid: beeff85933080e148a33a6e090ba2a41, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1718,6 +1782,14 @@ PrefabInstance:
       propertyPath: nameSprite
       value: 
       objectReference: {fileID: 3286163911610860551, guid: bbd1cd011b31d5148aa4e2566be11376, type: 3}
+    - target: {fileID: 1068433113987041144, guid: 3911d3834402f50419d3f08715e7dc6d, type: 3}
+      propertyPath: upWaypoint
+      value: 
+      objectReference: {fileID: 4166793107434957425}
+    - target: {fileID: 1068433113987041144, guid: 3911d3834402f50419d3f08715e7dc6d, type: 3}
+      propertyPath: rightWaypoint
+      value: 
+      objectReference: {fileID: 4166793107434957425}
     - target: {fileID: 1068433113987041144, guid: 3911d3834402f50419d3f08715e7dc6d, type: 3}
       propertyPath: scene.scenePath
       value: Assets/Scenes/Imported Maps/crashsite.unity

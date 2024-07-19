@@ -35,10 +35,58 @@ namespace MARDEK.UI {
             }
         }
 
-        void Open(Waypoint waypoint, MoveDirection exitDirection) {
-            currentWaypoint.Leave(areaName);
-            currentWaypoint = waypoint;
-            currentWaypoint.Visit(exitDirection, areaName);
+        Waypoint FindBestWaypointForDirection(Waypoint sourceWaypoint, MoveDirection direction) {
+            Waypoint bestDestination = null;
+            float bestScore = 0.0f;
+            float secondScore = bestScore;
+
+            foreach (var path in allPaths) {
+                var destination = path.GetOther(sourceWaypoint);
+                if (destination == null) continue;
+
+                var pathDirection = path.DirectionFrom(sourceWaypoint);
+                if (pathDirection != Vector2.zero) pathDirection.Normalize();
+                float score = direction.value.x * pathDirection.x + direction.value.y * pathDirection.y;
+                if (score > bestScore) {
+                    secondScore = bestScore;
+                    bestDestination = destination;
+                    bestScore = score;
+                }
+            }
+
+            // Don't choose a winner if the difference is too small to see
+            if (bestScore - secondScore < 0.05f) return null;
+
+            return bestDestination;
+        }
+
+        void OnValidate() {
+            if (!gameObject.activeInHierarchy) return;
+
+            allPaths = GetComponentsInChildren<Path>();
+            allWaypoints = GetComponentsInChildren<Waypoint>();
+
+            bool allWaypointsHaveSamePosition = true;
+            if (allWaypoints.Length > 0) {
+                var firstPosition = allWaypoints[0].gameObject.transform.position;
+                foreach (var waypoint in allWaypoints) {
+                    if (waypoint.gameObject.transform.position != firstPosition) allWaypointsHaveSamePosition = false;
+                }
+            }
+
+            // When the waypoint positions haven't been initialized yet, the rest of the code is useless
+            if (allWaypointsHaveSamePosition) return;
+
+            foreach (var sourceWaypoint in allWaypoints) {
+                sourceWaypoint.upWaypoint = FindBestWaypointForDirection(sourceWaypoint, up);
+                sourceWaypoint.rightWaypoint = FindBestWaypointForDirection(sourceWaypoint, right);
+                sourceWaypoint.downWaypoint = FindBestWaypointForDirection(sourceWaypoint, down);
+                sourceWaypoint.leftWaypoint = FindBestWaypointForDirection(sourceWaypoint, left);
+            }
+
+            foreach (var path in allPaths) {
+                path.CheckReachable();
+            }
         }
 
         void Update() {
@@ -68,25 +116,17 @@ namespace MARDEK.UI {
         public void OnMovementInput(InputAction.CallbackContext ctx)
         {
             var direction = ToMoveDirection(ctx.ReadValue<Vector2>());
-            Path bestPath = null;
-            float bestScore = 0;
+            Waypoint destination = null;
+            if (direction == up) destination = currentWaypoint.upWaypoint;
+            if (direction == right) destination = currentWaypoint.rightWaypoint;
+            if (direction == down) destination = currentWaypoint.downWaypoint;
+            if (direction == left) destination = currentWaypoint.leftWaypoint;
 
-            foreach (var path in allPaths) {
-                if (path.HasBeenDiscovered()) {
-                    var pathDirection = path.DirectionFrom(currentWaypoint);
-                    float score = direction.value.x * pathDirection.x + direction.value.y * pathDirection.y;
-                    if (score > bestScore) {
-                        bestPath = path;
-                        bestScore = score;
-                    }
-                }
-            }
-
-            if (bestPath != null) {
+            if (destination != null && destination.HasBeenDiscovered()) {
                 currentWaypoint.Leave(areaName);
-                nextWaypoint = bestPath.GetOther(currentWaypoint);
+                nextWaypoint = destination;
                 startMoveTime = Time.time;
-                stopMoveTime = startMoveTime + bestPath.GetDistance() / 100;
+                stopMoveTime = startMoveTime + Path.GetDistance(currentWaypoint, nextWaypoint) / 100;
             }
         }
 

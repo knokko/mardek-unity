@@ -15,6 +15,12 @@ namespace MARDEK.UI {
         [SerializeField] Sprite disabledIcon;
 
         [SerializeField] bool discovered;
+
+        [Header("These 4 are automatically chosen, so you should NOT change them!")]
+        public Waypoint upWaypoint;
+        public Waypoint rightWaypoint;
+        public Waypoint downWaypoint;
+        public Waypoint leftWaypoint;
         
         MoveDirection approachDirection;
 
