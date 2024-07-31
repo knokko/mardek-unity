@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Dialogue Text_nl
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: nl
+  m_SharedData: {fileID: 11400000, guid: 67d025d8f6a1ae040995bf4465a1c4c5, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 153256202240
+    m_Localized: Zo Deugan, dit is de schuilplaats van de draak!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15645891104768
+    m_Localized: Ja Mardek, daar zijn we! We moeten bij de draak zien te komen en
+      het verslaan om de prinses te redden! Tally-ho!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16231415943168
+    m_Localized: Wat betekent 'tally-ho'?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16403143331840
+    m_Localized: Uh... dat weet ik niet, maar ik heb avonturiers dit misschien horen
+      roepen! Het klinkt als iets dat ze zouden roepen!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21705802453094400
+    m_Localized: "Tally-ho!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21706179055456256
+    m_Localized: "Tally-ho! We zijn avonturiers! En guard! Forsooth! Vervloekte kobolden!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21707114829844480
+    m_Localized: "Tally-ho!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21707346158292992
+    m_Localized: "Laten we de prinses gaan redden! Tally-ho!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21707956987367424
+    m_Localized: "Oh Mardek, ik moet je nog ergens aan herinneren! We kunnen het
+      menu openen met de ENTER knop om onze krachten en voorwerpen te bekijken, of
+      om onze voortgang op te slaan! We kunnen ook de E knop gebruiken om deuren
+      te openen, met mensen te praten en nog wat dingen! Onthoud dit goed!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21709971717099520
+    m_Localized: Het is misschien een goed idee om de Help sectie van het menu te
+      lezen als je dat nog niet hebt gedaan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21710350043320320
+    m_Localized: "...Huh?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21710494327377920
+    m_Localized: Uh, ik bedoel... Tally-ho! Laten we die draak gaan verslaan!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21711275059318784
+    m_Localized: Mardek, vergeet niet dat we met onze superkrachten bijna onkwetsbaar
+      zijn als we al onze reacties goed genoeg raken met de X knop, wanneer we aanvallen
+      of worden aangevallen! Maar de timing moet wel goed zijn, dus laten we er een
+      beetje mee experimenteren en deze Reacties in ons voordeel gebruiken!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21712212997967872
+    m_Localized: (Blijkbaar moet ik je dit uitleggen, want anders zou je er waarschijnlijk
+      nooit achter komen dat deze reacties bestaan.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21712584311312384
+    m_Localized: "...Huh?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21712714368290816
+    m_Localized: Mardek, laten we maar gewoon verder gaan! Tally-ho!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

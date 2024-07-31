@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Dialogue Text Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Dialogue Text
+  m_TableCollectionNameGuidString: 67d025d8f6a1ae040995bf4465a1c4c5
+  m_Entries:
+  - m_Id: 153256202240
+    m_Key: DragonsLair-FirstRoom-Box0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15645891104768
+    m_Key: DragonsLair-FirstRoom-Box1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16231415943168
+    m_Key: DragonsLair-FirstRoom-Box2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16403143331840
+    m_Key: DragonsLair-FirstRoom-Box3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21705802453094400
+    m_Key: DragonsLair-FirstRoom-Box4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21706179055456256
+    m_Key: DragonsLair-FirstRoom-Box5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21707114829844480
+    m_Key: DragonsLair-FirstRoom-Box6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21707346158292992
+    m_Key: DragonsLair-FirstRoom-Box7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21707956987367424
+    m_Key: DragonsLair-FirstRoom-Box8-E0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21709971717099520
+    m_Key: DragonsLair-FirstRoom-Box8-E1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21710350043320320
+    m_Key: DragonsLair-FirstRoom-Box9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21710494327377920
+    m_Key: DragonsLair-FirstRoom-Box10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21711275059318784
+    m_Key: DragonsLair-SecondRoom-Box0-E0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21712212997967872
+    m_Key: DragonsLair-SecondRoom-Box0-E1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21712584311312384
+    m_Key: DragonsLair-SecondRoom-Box1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21712714368290816
+    m_Key: DragonsLair-SecondRoom-Box2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21713741960187904
+    m_Key: DragonsLair-BeforeDragon-Box0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21713862072471552
+    m_Key: DragonsLair-BeforeDragon-Box1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21713963641737216
+    m_Key: DragonsLair-BeforeDragon-Box2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21714073301815296
+    m_Key: DragonsLair-BeforeDragon-Box3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21714291908939776
+    m_Key: DragonsLair-BeforeDragon-Box4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21714432200019968
+    m_Key: DragonsLair-BeforeDragon-Box5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21714493264891904
+    m_Key: DragonsLair-BeforeDragon-Box6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21714656645615616
+    m_Key: DragonsLair-BeforeDragon-Box7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21714725901963264
+    m_Key: DragonsLair-BeforeDragon-Box8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21714897130229760
+    m_Key: DragonsLair-AfterDragon-Box0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21715053967839232
+    m_Key: DragonsLair-AfterDragon-Box1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21715161241358336
+    m_Key: DragonsLair-AfterDragon-Box2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21715212038574080
+    m_Key: DragonsLair-AfterDragon-Box3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21715395887501312
+    m_Key: DragonsLair-AfterDragon-Box4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21715518428286976
+    m_Key: DragonsLair-AfterDragon-Box5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21715624997163008
+    m_Key: DragonsLair-AfterDragon-Box6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21721704120717312
+    m_Key: DragonsLair-AfterDragon-Box7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21722062918258688
+    m_Key: DragonsLair-AfterDragon-Box8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21722182510448640
+    m_Key: DragonsLair-AfterDragon-Box9
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8773406419879985176
+  references:
+    version: 2
+    RefIds:
+    - rid: 8773406419879985176
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1722455151344

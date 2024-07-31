@@ -16,42 +16,133 @@ MonoBehaviour:
   - <Character>k__BackingField: {fileID: 11400000, guid: e333cc4476c16844a9f1d2a98f28a46f, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 0}
-      line: OH DEAR!! I HAVE BEEN SLAIN!!!
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21714897130229760
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 0}
-      line: "Well, we beated the dragon!\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21715053967839232
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: e651f62533624154586a9e67498a36ea, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 0}
-      line: "Oh thank you so much for saving me, mighty heroes!\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21715161241358336
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 0}
-      line: "Well it was really all my fault.\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21715212038574080
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 0}
-      line: "All your *fault*? Do you mean all your *doing* or something? Because
-        that's not fair! We beat the dragon together...\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21715395887501312
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 0}
-      line: "Well I still get the princess.\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21715518428286976
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 0}
-      line: "You can have her! She's a *giiirl*! Girls are headlice, I heard! They
-        suck on your wallet and drain out all your money, that's what my dad says!\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21715624997163008
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 0}
-      line: "Really?!\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21721704120717312
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 0}
-      line: "Yeh, really! My dad told me so it must be true!\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21722062918258688
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 0}
-      line: Now that we've beatened the dragon though, now what do we do
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21722182510448640
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

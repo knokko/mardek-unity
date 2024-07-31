@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization;
 using CharacterProfile = MARDEK.CharacterSystem.CharacterProfile;
 using PortraitExpressionEnum = MARDEK.CharacterSystem.PortraitExpressionEnum;
 
@@ -17,6 +18,7 @@ namespace MARDEK.DialogueSystem
             public PortraitExpressionEnum expression;
             [TextArea(0, 5)] 
             public string line;
+            public LocalizedString localizedLine;
         }
     }
 }

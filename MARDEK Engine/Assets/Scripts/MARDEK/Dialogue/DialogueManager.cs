@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Localization;
 using UnityEngine.UI;
 using TMPro;
 using MARDEK.CharacterSystem;
@@ -106,7 +107,11 @@ namespace MARDEK.DialogueSystem
                 return string.Empty;
 
             var characterDialogueLines = dialogue.CharacterLines[dialogueIndex];
-            string line = characterDialogueLines.WrappedLines[lineIndex].line;
+            LocalizedString localizedLine = characterDialogueLines.WrappedLines[lineIndex].localizedLine;
+
+            string line;
+            if (localizedLine.IsEmpty) line = characterDialogueLines.WrappedLines[lineIndex].line;
+            else line = localizedLine.GetLocalizedString();
 
             int lengthToShow = line.Length;
             if (letterIndex >= line.Length || letterIndex < 0)

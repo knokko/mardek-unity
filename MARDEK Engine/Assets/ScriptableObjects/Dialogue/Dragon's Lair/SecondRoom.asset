@@ -16,18 +16,53 @@ MonoBehaviour:
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 0}
-      line: "Remember Mardek, with our super-duper Hero Powers, we're practically
-        invincible if we successfully use all our Reactions well enough with the
-        X key right when we attack or get attacked! But we've got to get the timing
-        right, so let's experiment a bit, and use these Reactions to our advantage!\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21711275059318784
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
     - expression: {fileID: 0}
-      line: "(Apparently I have to mention this or else you'll probably not figure
-        out that reaction commands exist at all.)\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21712212997967872
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 0}
-      line: "...Huh?\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21712584311312384
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 0}
-      line: Let's just continue on our way, Mardek! Tally-ho!
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21712714368290816
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

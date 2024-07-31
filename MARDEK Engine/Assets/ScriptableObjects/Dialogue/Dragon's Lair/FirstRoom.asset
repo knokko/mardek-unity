@@ -16,52 +16,158 @@ MonoBehaviour:
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 11400000, guid: 16e9e7725dff17f43b9c205efb49c161, type: 2}
-      line: "Well Deugan, this is The Dragon's Lair!\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 153256202240
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 11400000, guid: a3bd3d6c1dfbaf24fac3a0a3c45eec26, type: 2}
-      line: "Yes, Mardek, that it is! We have to get to the dragon and slay it to
-        rescue the Princess! Tally-ho!\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 15645891104768
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 11400000, guid: 0cbb44f1f6e43304a81228458ebd9a9c, type: 2}
-      line: "What does 'tally-ho' mean?\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 16231415943168
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 11400000, guid: 88f3cff367d50c94b9404a9d1ff11617, type: 2}
-      line: "Uhm... I'm not sure! But I've heard adventurers say it before maybe!
-        It sounds like something they'd say!\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 16403143331840
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 11400000, guid: a3bd3d6c1dfbaf24fac3a0a3c45eec26, type: 2}
-      line: "Tally-ho!\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21705802453094400
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 11400000, guid: a3bd3d6c1dfbaf24fac3a0a3c45eec26, type: 2}
-      line: "Tally-ho! We're adventurers! En guard! Forsooth! Bloody goblins!\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21706179055456256
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 11400000, guid: a3bd3d6c1dfbaf24fac3a0a3c45eec26, type: 2}
-      line: "Tally-ho!\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21707114829844480
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 11400000, guid: a3bd3d6c1dfbaf24fac3a0a3c45eec26, type: 2}
       line: "Now let's go and save that Princess! Tally-ho!\r"
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21707346158292992
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 11400000, guid: 16e9e7725dff17f43b9c205efb49c161, type: 2}
-      line: "Oh, but Mardek, just a reminder about things! We can open the menu with
-        the ENTER key to check our stats, skills and items, or to save! And we can
-        also open doors and talk to people and stuff with the X key! Remember these
-        things!\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21707956987367424
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
     - expression: {fileID: 11400000, guid: 16e9e7725dff17f43b9c205efb49c161, type: 2}
       line: "It might be a good idea to read the Help section of the menu now if
         you didn't read the Instructions already!\r"
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21709971717099520
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 1b52e3af512408b48b3e3a6f23e95861, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 11400000, guid: 0cbb44f1f6e43304a81228458ebd9a9c, type: 2}
-      line: "...Huh?\r"
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21710350043320320
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
   - <Character>k__BackingField: {fileID: 11400000, guid: 83695886c34656f4e9e9ae47c4858e6f, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 11400000, guid: a3bd3d6c1dfbaf24fac3a0a3c45eec26, type: 2}
-      line: Uh, I mean... Tally-ho! Let's go and slay that dragon!
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 21710494327377920
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

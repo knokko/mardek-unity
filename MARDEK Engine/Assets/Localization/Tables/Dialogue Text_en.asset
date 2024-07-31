@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Dialogue Text_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 67d025d8f6a1ae040995bf4465a1c4c5, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 153256202240
+    m_Localized: "Well Deugan, this is The Dragon's Lair!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15645891104768
+    m_Localized: "Yes, Mardek, that it is! We have to get to the dragon and slay
+      it to rescue the Princess! Tally-ho!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16231415943168
+    m_Localized: "What does 'tally-ho' mean?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16403143331840
+    m_Localized: "Uhm... I'm not sure! But I've heard adventurers say it before maybe!
+      It sounds like something they'd say!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21705802453094400
+    m_Localized: "Tally-ho!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21706179055456256
+    m_Localized: "Tally-ho! We're adventurers! En guard! Forsooth! Bloody goblins!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21707114829844480
+    m_Localized: "Tally-ho!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21707346158292992
+    m_Localized: "Now let's go and save that Princess! Tally-ho!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21707956987367424
+    m_Localized: "Oh, but Mardek, just a reminder about things! We can open the menu
+      with the ENTER key to check our stats, skills and items, or to save! And we
+      can also open doors and talk to people and stuff with the X key! Remember these
+      things!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21709971717099520
+    m_Localized: "It might be a good idea to read the Help section of the menu now
+      if you didn't read the Instructions already!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21710350043320320
+    m_Localized: "...Huh?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21710494327377920
+    m_Localized: Uh, I mean... Tally-ho! Let's go and slay that dragon!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21711275059318784
+    m_Localized: "Remember Mardek, with our super-duper Hero Powers, we're practically
+      invincible if we successfully use all our Reactions well enough with the X
+      key right when we attack or get attacked! But we've got to get the timing right,
+      so let's experiment a bit, and use these Reactions to our advantage!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21712212997967872
+    m_Localized: "(Apparently I have to mention this or else you'll probably not
+      figure out that reaction commands exist at all.)\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21712584311312384
+    m_Localized: "...Huh?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21712714368290816
+    m_Localized: Let's just continue on our way, Mardek! Tally-ho!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21713741960187904
+    m_Localized: "HAHAHAH! HEROES! YOU ARE... (Uh... What would a dragon say...?)...
+      YOU ARE PATHETIC MORTALS! I HAVE A PRINCESS! YOU CAN'T HAVE THIS PRINCESS!
+      THIS PRINCESS IS MINE!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21713862072471552
+    m_Localized: "We will slay you, mighty The Dragon! For we are great and Mighty
+      Heroes, even mightier than you! Tally-ho forsooth!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21713963641737216
+    m_Localized: "We'll kick your arse dragon!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21714073301815296
+    m_Localized: "Do dragons have arses?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21714291908939776
+    m_Localized: "I bet they do!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21714432200019968
+    m_Localized: "If they do, then we'll kick it like it's never been kicked before!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21714493264891904
+    m_Localized: "Yeh! With our big swords!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21714656645615616
+    m_Localized: "So bring it on, dragon!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21714725901963264
+    m_Localized: HAHAHAH! YOU WILL NEVER DEFEAT ME!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21714897130229760
+    m_Localized: OH DEAR!! I HAVE BEEN SLAIN!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21715053967839232
+    m_Localized: "Well, we beated the dragon!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21715161241358336
+    m_Localized: "Oh thank you so much for saving me, mighty heroes!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21715212038574080
+    m_Localized: "Well it was really all my fault.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21715395887501312
+    m_Localized: "All your *fault*? Do you mean all your *doing* or something? Because
+      that's not fair! We beat the dragon together...\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21715518428286976
+    m_Localized: "Well I still get the princess.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21715624997163008
+    m_Localized: "You can have her! She's a *giiirl*! Girls are headlice, I heard!
+      They suck on your wallet and drain out all your money, that's what my dad says!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21721704120717312
+    m_Localized: "Really?!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21722062918258688
+    m_Localized: "Yeh, really! My dad told me so it must be true!\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21722182510448640
+    m_Localized: Now that we've beatened the dragon though, now what do we do?
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
