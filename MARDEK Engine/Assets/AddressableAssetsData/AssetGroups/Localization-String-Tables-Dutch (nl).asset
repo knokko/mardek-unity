@@ -23,6 +23,18 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-nl
     - Preload
+  - m_GUID: bca8bd421869c554c830ab95a24d0aee
+    m_Address: CharacterProfiles_nl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-nl
+    - Preload
+  - m_GUID: 5aabada58e8a3d946b6e4d8b66865fd4
+    m_Address: UI_nl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-nl
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 21c386a8bcacfdd4d94e37e15a2ce14c, type: 2}
   m_SchemaSet:

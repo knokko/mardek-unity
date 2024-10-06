@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Localization;
 using MARDEK.Core;
 using MARDEK.Animation;
 using MARDEK.Skill;
@@ -10,6 +11,7 @@ namespace MARDEK.CharacterSystem
     public class CharacterProfile : AddressableScriptableObject
     {
         [field: SerializeField] public string displayName { get; private set; }
+        [field: SerializeField] public LocalizedString localizedDisplayName { get; private set; }
         [field: SerializeField] public string displayClass { get; private set; }
         [field: SerializeField] public Element element { get; private set; }
         [field: SerializeField] public CharacterPortrait portrait { get; private set; }

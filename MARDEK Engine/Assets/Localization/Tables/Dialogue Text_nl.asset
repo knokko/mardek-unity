@@ -92,6 +92,14 @@ MonoBehaviour:
     m_Localized: Mardek, laten we maar gewoon verder gaan! Tally-ho!
     m_Metadata:
       m_Items: []
+  - m_Id: 24218351966883840
+    m_Localized: Sla voortgang op
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24218943640571904
+    m_Localized: Annuleren
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

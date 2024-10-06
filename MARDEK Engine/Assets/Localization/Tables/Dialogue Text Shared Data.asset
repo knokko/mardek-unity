@@ -155,6 +155,30 @@ MonoBehaviour:
     m_Key: DragonsLair-AfterDragon-Box9
     m_Metadata:
       m_Items: []
+  - m_Id: 24218097972416512
+    m_Key: SaveCrystal.saved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24218351966883840
+    m_Key: SaveCrystal.actions.save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24218446925926400
+    m_Key: SaveCrystal.actions.load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24218569605124096
+    m_Key: SaveCrystal.actions.partySelection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24218943640571904
+    m_Key: SaveCrystal.actions.cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24219091946967040
+    m_Key: SaveCrystal.healed
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

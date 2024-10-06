@@ -12,13 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b47544976d9994d818ec74436e5528, type: 3}
   m_Name: Dragon's Lair Princess
   m_EditorClassIdentifier: 
-  <displayName>k__BackingField: Princess
+  <displayName>k__BackingField: 
+  <localizedDisplayName>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:70a41fb022e974947a4fdbf7ebf24e61
+    m_TableEntryReference:
+      m_KeyId: 567879929856
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   <displayClass>k__BackingField: 
+  <element>k__BackingField: {fileID: 0}
+  <portrait>k__BackingField: {fileID: 0}
   <WalkSprites>k__BackingField: {fileID: 0}
+  <BattleModelPrefab>k__BackingField: {fileID: 0}
   <ActionSkillset>k__BackingField: {fileID: 0}
   <StartingStats>k__BackingField:
     intStats: []
-  <element>k__BackingField: {fileID: 0}
-  <portrait>k__BackingField: {fileID: 0}
   MaxHPExpressionOveride: {fileID: 0}
   MaxMPExpressionOveride: {fileID: 0}
+  references:
+    version: 2
+    RefIds: []

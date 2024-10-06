@@ -16,4 +16,16 @@ MonoBehaviour:
   - <Character>k__BackingField: {fileID: 11400000, guid: 7eab045d48c94d144b1f9bc5ae459733, type: 2}
     <WrappedLines>k__BackingField:
     - expression: {fileID: 0}
-      line: Game saved.
+      line: 
+      localizedLine:
+        m_TableReference:
+          m_TableCollectionName: GUID:67d025d8f6a1ae040995bf4465a1c4c5
+        m_TableEntryReference:
+          m_KeyId: 24218097972416512
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

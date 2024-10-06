@@ -173,6 +173,31 @@ MonoBehaviour:
     m_Localized: Now that we've beatened the dragon though, now what do we do?
     m_Metadata:
       m_Items: []
+  - m_Id: 24218097972416512
+    m_Localized: Game saved.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24218351966883840
+    m_Localized: Save progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24218446925926400
+    m_Localized: Load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24218569605124096
+    m_Localized: Party selection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24218943640571904
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24219091946967040
+    m_Localized: A soothing light washes over you... Your wounds are healed. Would
+      you like to save?
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

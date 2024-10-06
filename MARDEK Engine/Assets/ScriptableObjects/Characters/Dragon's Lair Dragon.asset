@@ -12,9 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b47544976d9994d818ec74436e5528, type: 3}
   m_Name: Dragon's Lair Dragon
   m_EditorClassIdentifier: 
-  <displayName>k__BackingField: The Dragon
+  <displayName>k__BackingField: 
+  <localizedDisplayName>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:70a41fb022e974947a4fdbf7ebf24e61
+    m_TableEntryReference:
+      m_KeyId: 307308793856
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   <displayClass>k__BackingField: 
+  <element>k__BackingField: {fileID: 11400000, guid: b58053569349d314892770b43156bfd2, type: 2}
+  <portrait>k__BackingField: {fileID: 0}
   <WalkSprites>k__BackingField: {fileID: 0}
+  <BattleModelPrefab>k__BackingField: {fileID: 0}
   <ActionSkillset>k__BackingField: {fileID: 0}
   <StartingStats>k__BackingField:
     intStats:
@@ -36,7 +48,8 @@ MonoBehaviour:
       _value: 40
     - <statusEnum>k__BackingField: {fileID: 11400000, guid: 1b22f71dbf2256c4e911d8c67c85b913, type: 2}
       _value: 40
-  <element>k__BackingField: {fileID: 11400000, guid: b58053569349d314892770b43156bfd2, type: 2}
-  <portrait>k__BackingField: {fileID: 0}
   MaxHPExpressionOveride: {fileID: 11400000, guid: b7a7ee1b5d13f3e46beff693649086c7, type: 2}
   MaxMPExpressionOveride: {fileID: 11400000, guid: b7a7ee1b5d13f3e46beff693649086c7, type: 2}
+  references:
+    version: 2
+    RefIds: []

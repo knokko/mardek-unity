@@ -157,7 +157,7 @@ namespace MARDEK.DialogueSystem
         private void OnUpdateLineEntry()
         {
             CharacterProfile profile = dialogue?.CharacterLines[dialogueIndex].Character;
-            characterNameText.text = profile != null ? profile.displayName : string.Empty;
+            characterNameText.text = profile != null ? profile.localizedDisplayName.GetLocalizedString() : string.Empty;
             SetElementIcon(profile);
         }
 

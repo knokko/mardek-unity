@@ -12,7 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b47544976d9994d818ec74436e5528, type: 3}
   m_Name: Hero Deugan
   m_EditorClassIdentifier: 
-  <displayName>k__BackingField: Deugan
+  <displayName>k__BackingField: 
+  <localizedDisplayName>k__BackingField:
+    m_TableReference:
+      m_TableCollectionName: GUID:70a41fb022e974947a4fdbf7ebf24e61
+    m_TableEntryReference:
+      m_KeyId: 67059476598784
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
   <displayClass>k__BackingField: Hero
   <element>k__BackingField: {fileID: 11400000, guid: 96b7bd01ebbf64840a070d9ed9321b4c, type: 2}
   <portrait>k__BackingField: {fileID: 11400000, guid: 3352fe56a7f1ff54f8a6c2ff8c4680db, type: 2}
@@ -33,3 +42,6 @@ MonoBehaviour:
       _value: 15
   MaxHPExpressionOveride: {fileID: 0}
   MaxMPExpressionOveride: {fileID: 0}
+  references:
+    version: 2
+    RefIds: []
